@@ -7,6 +7,42 @@ npm i @or13/did-jwk --save
 npm i -g @or13/did-jwk
 ```
 
+## Use
+
+### CLI
+
+### Generate Key
+
+```
+did-jwk generate-key EdDSA
+```
+
+### Generate For Purpose
+
+```
+did-jwk generate-for authenticity
+did-jwk generate-for privacy
+```
+
+### Sign & Verify
+
+```
+did-jwk generate-for authenticity > k0.json
+echo '{"message": "hello"}' > m0.json
+did-jwk sign ./k0.json ./m0.json > m0.signed.json
+did-jwk verify ./m0.signed.json --decode
+```
+
+### Encrypt & Decrypt
+
+```
+did-jwk generate-for privacy > k1.json
+echo '{"message": "hello"}' > m0.json
+did-jwk create ./k1.json > recipient_id.json
+did-jwk encrypt `cat  ./recipient_id.json | jq '.id'` ./m0.json > m0.encrypted.json
+did-jwk decrypt ./k1.json ./m0.encrypted.json  --decode
+```
+
 ## Development
 
 ```bash
@@ -17,7 +53,7 @@ npm t
 npm i -g .
 ```
 
-## CLI
+### CLI
 
 ### Generate Key
 
