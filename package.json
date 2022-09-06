@@ -1,5 +1,5 @@
 {
-  "name": "did-jwk",
+  "name": "@or13/did-jwk",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",

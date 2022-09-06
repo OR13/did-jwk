@@ -1,5 +1,12 @@
 # did-jwk
 
+```bash
+npm i @or13/did-jwk --save
+
+# install cli globally
+npm i -g @or13/did-jwk
+```
+
 ## Development
 
 ```bash
