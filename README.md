@@ -1,6 +1,6 @@
 # did-jwk
 
-### Development
+## Development
 
 ```bash
 npm i
@@ -10,9 +10,9 @@ npm t
 npm i -g .
 ```
 
-#### CLI
+## CLI
 
-##### Generate Key
+### Generate Key
 
 Create a private key
 
@@ -20,7 +20,7 @@ Create a private key
 npm run did-jwk generate-key EdDSA --silent > ./src/cli-examples/key.json
 ```
 
-##### Generate Key For Operation
+### Generate Key For Operation
 
 Create a private key
 
@@ -29,7 +29,7 @@ npm run did-jwk generate-for authenticity --silent > ./src/cli-examples/key.auth
 npm run did-jwk generate-for privacy --silent > ./src/cli-examples/key.privacy.json
 ```
 
-##### Create DID
+### Create DID
 
 Create a DID.
 
@@ -38,7 +38,7 @@ npm run did-jwk create ./src/cli-examples/key.json --silent > ./src/cli-examples
 npm run did-jwk create ./src/cli-examples/key.privacy.json --silent > ./src/cli-examples/id.encrypt.json
 ```
 
-##### Resolve DID
+### Resolve DID
 
 Resolve a DID
 
@@ -46,7 +46,7 @@ Resolve a DID
 npm run did-jwk resolve `cat  ./src/cli-examples/id.json | jq '.id'` --silent > ./src/cli-examples/resolution.json
 ```
 
-##### Dereference DID
+### Dereference DID
 
 Dereference a DID.
 
@@ -54,7 +54,7 @@ Dereference a DID.
 npm run did-jwk dereference `cat  ./src/cli-examples/id.json | jq '.id'`#0 --silent > ./src/cli-examples/dereference.json
 ```
 
-##### Sign
+### Sign
 
 Sign as a DID
 
@@ -62,7 +62,7 @@ Sign as a DID
 npm run did-jwk sign ./src/cli-examples/key.json ./src/cli-examples/message.json --silent > ./src/cli-examples/message.signed.json
 ```
 
-##### Verify
+### Verify
 
 Verify with a DID
 
@@ -76,7 +76,7 @@ Verify and decode
 npm run did-jwk verify ./src/cli-examples/message.signed.json  -- --decode
 ```
 
-##### Encrypt to a DID
+### Encrypt to a DID
 
 Encrypt to a DID
 
@@ -84,7 +84,7 @@ Encrypt to a DID
 npm run did-jwk encrypt `cat  ./src/cli-examples/id.encrypt.json | jq '.id'` ./src/cli-examples/message.json --silent > ./src/cli-examples/message.encrypted.json
 ```
 
-##### Encrypt with a Private Key
+### Encrypt with a Private Key
 
 Decrypt with a private key
 

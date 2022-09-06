@@ -1,0 +1,38 @@
+{
+  "decrypted": {
+    "plaintext": {
+      "type": "Buffer",
+      "data": [
+        123,
+        34,
+        109,
+        101,
+        115,
+        115,
+        97,
+        103,
+        101,
+        34,
+        58,
+        34,
+        104,
+        101,
+        108,
+        108,
+        111,
+        34,
+        125
+      ]
+    },
+    "protectedHeader": {
+      "alg": "ECDH-ES+A256KW",
+      "enc": "A256GCM",
+      "epk": {
+        "x": "5cxzlgYyEspHzAhIWtnPDSZqzhWGUpRyDJ5M2EKg-D8",
+        "crv": "P-256",
+        "kty": "EC",
+        "y": "ECmJDhcuHOYtVQUukO8uxOErqcYk5ibyxqt-5IKXTcY"
+      }
+    }
+  }
+}

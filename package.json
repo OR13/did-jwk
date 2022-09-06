@@ -1,0 +1,34 @@
+{
+  "name": "did-jwk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "did:jwk": "NODE_NO_WARNINGS=1 node ./src/cli.js",
+    "test": "node ./tests/*.js",
+    "lint": "eslint ./src/**/*.js ./tests/**/*.js",
+    "lint:fix": "eslint ./src/**/*.js ./tests/**/*.js --fix"
+  },
+  "bin": {
+    "did-jwk": "./src/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OR13/did-jwk.git"
+  },
+  "author": "Orie Steele",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OR13/did-jwk/issues"
+  },
+  "homepage": "https://github.com/OR13/did-jwk#readme",
+  "dependencies": {
+    "jose": "^4.9.2",
+    "yargs": "^17.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.23.0",
+    "eslint-config-google": "^0.14.0",
+    "prettier": "^2.7.1"
+  }
+}

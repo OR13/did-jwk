@@ -1,0 +1,33 @@
+{
+  "verified": {
+    "payload": {
+      "type": "Buffer",
+      "data": [
+        123,
+        34,
+        109,
+        101,
+        115,
+        115,
+        97,
+        103,
+        101,
+        34,
+        58,
+        34,
+        104,
+        101,
+        108,
+        108,
+        111,
+        34,
+        125
+      ]
+    },
+    "protectedHeader": {
+      "iss": "did:jwk:eyJraWQiOiJ1cm46aWV0ZjpwYXJhbXM6b2F1dGg6andrLXRodW1icHJpbnQ6c2hhLTI1NjpGZk1iek9qTW1RNGVmVDZrdndUSUpqZWxUcWpsMHhqRUlXUTJxb2JzUk1NIiwia3R5IjoiT0tQIiwiY3J2IjoiRWQyNTUxOSIsImFsZyI6IkVkRFNBIiwieCI6IkFOUmpIX3p4Y0tCeHNqUlBVdHpSYnA3RlNWTEtKWFE5QVBYOU1QMWo3azQifQ",
+      "kid": "#0",
+      "alg": "EdDSA"
+    }
+  }
+}

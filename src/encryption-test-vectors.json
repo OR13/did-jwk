@@ -1,0 +1,243 @@
+{
+  "ECDH-ES+A256KW": [
+    {
+      "privateKeyJwk": {
+        "kid": "urn:ietf:params:oauth:jwk-thumbprint:sha-256:zQb62cLQC9f-PjHoFUCt54OTbXiVYmmVx4DYW1FQXx4",
+        "kty": "EC",
+        "crv": "P-256",
+        "alg": "ECDH-ES+A256KW",
+        "x": "C0lS3oXV1Sz3EGLTTKJbXnQ115sZX0LH3LM7JG5HKIg",
+        "y": "C4_NfbnwF_zxH2nQU0SNXXZiIGJHsL9BcTUyDS9cuaM",
+        "d": "7BogsKd_wxuns4XivqnUCGNRsKxhpessgAd2ZUke_dQ"
+      },
+      "didDocument": {
+        "@context": [
+          "https://www.w3.org/ns/did/v1",
+          {
+            "@vocab": "https://www.iana.org/assignments/jose#"
+          }
+        ],
+        "id": "did:jwk:eyJraWQiOiJ1cm46aWV0ZjpwYXJhbXM6b2F1dGg6andrLXRodW1icHJpbnQ6c2hhLTI1Njp6UWI2MmNMUUM5Zi1QakhvRlVDdDU0T1RiWGlWWW1tVng0RFlXMUZRWHg0Iiwia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsImFsZyI6IkVDREgtRVMrQTI1NktXIiwieCI6IkMwbFMzb1hWMVN6M0VHTFRUS0piWG5RMTE1c1pYMExIM0xNN0pHNUhLSWciLCJ5IjoiQzRfTmZibndGX3p4SDJuUVUwU05YWFppSUdKSHNMOUJjVFV5RFM5Y3VhTSJ9",
+        "verificationMethod": [
+          {
+            "id": "#0",
+            "type": "JsonWebKey2020",
+            "controller": "did:jwk:eyJraWQiOiJ1cm46aWV0ZjpwYXJhbXM6b2F1dGg6andrLXRodW1icHJpbnQ6c2hhLTI1Njp6UWI2MmNMUUM5Zi1QakhvRlVDdDU0T1RiWGlWWW1tVng0RFlXMUZRWHg0Iiwia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsImFsZyI6IkVDREgtRVMrQTI1NktXIiwieCI6IkMwbFMzb1hWMVN6M0VHTFRUS0piWG5RMTE1c1pYMExIM0xNN0pHNUhLSWciLCJ5IjoiQzRfTmZibndGX3p4SDJuUVUwU05YWFppSUdKSHNMOUJjVFV5RFM5Y3VhTSJ9",
+            "publicKeyJwk": {
+              "kid": "urn:ietf:params:oauth:jwk-thumbprint:sha-256:zQb62cLQC9f-PjHoFUCt54OTbXiVYmmVx4DYW1FQXx4",
+              "kty": "EC",
+              "crv": "P-256",
+              "alg": "ECDH-ES+A256KW",
+              "x": "C0lS3oXV1Sz3EGLTTKJbXnQ115sZX0LH3LM7JG5HKIg",
+              "y": "C4_NfbnwF_zxH2nQU0SNXXZiIGJHsL9BcTUyDS9cuaM"
+            }
+          }
+        ],
+        "keyAgreement": [
+          "#0"
+        ]
+      }
+    },
+    {
+      "privateKeyJwk": {
+        "kid": "urn:ietf:params:oauth:jwk-thumbprint:sha-256:Qi4Fmfw5a1nA2X4Ja7vIpMusRubCq7N-dLwGV8Q6bIs",
+        "kty": "EC",
+        "crv": "P-256",
+        "alg": "ECDH-ES+A256KW",
+        "x": "VOi_GsPpBFa6uI0Hyjap8Ij21BxSrQUxS68LbrHCSFs",
+        "y": "EP47JTDzafmqlRQK74sGJEJojnSVBu47ZGZJM5n-6eM",
+        "d": "ReXm3CzIZ1XxCKQCMFEOOxdrPMMHZEQVwgsEPPKwhnk"
+      },
+      "didDocument": {
+        "@context": [
+          "https://www.w3.org/ns/did/v1",
+          {
+            "@vocab": "https://www.iana.org/assignments/jose#"
+          }
+        ],
+        "id": "did:jwk:eyJraWQiOiJ1cm46aWV0ZjpwYXJhbXM6b2F1dGg6andrLXRodW1icHJpbnQ6c2hhLTI1NjpRaTRGbWZ3NWExbkEyWDRKYTd2SXBNdXNSdWJDcTdOLWRMd0dWOFE2YklzIiwia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsImFsZyI6IkVDREgtRVMrQTI1NktXIiwieCI6IlZPaV9Hc1BwQkZhNnVJMEh5amFwOElqMjFCeFNyUVV4UzY4TGJySENTRnMiLCJ5IjoiRVA0N0pURHphZm1xbFJRSzc0c0dKRUpvam5TVkJ1NDdaR1pKTTVuLTZlTSJ9",
+        "verificationMethod": [
+          {
+            "id": "#0",
+            "type": "JsonWebKey2020",
+            "controller": "did:jwk:eyJraWQiOiJ1cm46aWV0ZjpwYXJhbXM6b2F1dGg6andrLXRodW1icHJpbnQ6c2hhLTI1NjpRaTRGbWZ3NWExbkEyWDRKYTd2SXBNdXNSdWJDcTdOLWRMd0dWOFE2YklzIiwia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsImFsZyI6IkVDREgtRVMrQTI1NktXIiwieCI6IlZPaV9Hc1BwQkZhNnVJMEh5amFwOElqMjFCeFNyUVV4UzY4TGJySENTRnMiLCJ5IjoiRVA0N0pURHphZm1xbFJRSzc0c0dKRUpvam5TVkJ1NDdaR1pKTTVuLTZlTSJ9",
+            "publicKeyJwk": {
+              "kid": "urn:ietf:params:oauth:jwk-thumbprint:sha-256:Qi4Fmfw5a1nA2X4Ja7vIpMusRubCq7N-dLwGV8Q6bIs",
+              "kty": "EC",
+              "crv": "P-256",
+              "alg": "ECDH-ES+A256KW",
+              "x": "VOi_GsPpBFa6uI0Hyjap8Ij21BxSrQUxS68LbrHCSFs",
+              "y": "EP47JTDzafmqlRQK74sGJEJojnSVBu47ZGZJM5n-6eM"
+            }
+          }
+        ],
+        "keyAgreement": [
+          "#0"
+        ]
+      }
+    },
+    {
+      "privateKeyJwk": {
+        "kid": "urn:ietf:params:oauth:jwk-thumbprint:sha-256:NEl3MGEFcIAv9IkQsnjT-zloM8zDquKdDkDVOma6cpk",
+        "kty": "EC",
+        "crv": "P-256",
+        "alg": "ECDH-ES+A256KW",
+        "x": "4qOdGcdT_GguAAqGqN7UUl1ehEp_6mEYiqkfkwKNqGI",
+        "y": "36laPTmRx_1xAAN94Ua3K-H6N-XMr0umn1WUJowsmG4",
+        "d": "g0YghhDXMmIks-zC9NjTOwkhoI6APSoBaEqy0ao9F8s"
+      },
+      "didDocument": {
+        "@context": [
+          "https://www.w3.org/ns/did/v1",
+          {
+            "@vocab": "https://www.iana.org/assignments/jose#"
+          }
+        ],
+        "id": "did:jwk:eyJraWQiOiJ1cm46aWV0ZjpwYXJhbXM6b2F1dGg6andrLXRodW1icHJpbnQ6c2hhLTI1NjpORWwzTUdFRmNJQXY5SWtRc25qVC16bG9NOHpEcXVLZERrRFZPbWE2Y3BrIiwia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsImFsZyI6IkVDREgtRVMrQTI1NktXIiwieCI6IjRxT2RHY2RUX0dndUFBcUdxTjdVVWwxZWhFcF82bUVZaXFrZmt3S05xR0kiLCJ5IjoiMzZsYVBUbVJ4XzF4QUFOOTRVYTNLLUg2Ti1YTXIwdW1uMVdVSm93c21HNCJ9",
+        "verificationMethod": [
+          {
+            "id": "#0",
+            "type": "JsonWebKey2020",
+            "controller": "did:jwk:eyJraWQiOiJ1cm46aWV0ZjpwYXJhbXM6b2F1dGg6andrLXRodW1icHJpbnQ6c2hhLTI1NjpORWwzTUdFRmNJQXY5SWtRc25qVC16bG9NOHpEcXVLZERrRFZPbWE2Y3BrIiwia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsImFsZyI6IkVDREgtRVMrQTI1NktXIiwieCI6IjRxT2RHY2RUX0dndUFBcUdxTjdVVWwxZWhFcF82bUVZaXFrZmt3S05xR0kiLCJ5IjoiMzZsYVBUbVJ4XzF4QUFOOTRVYTNLLUg2Ti1YTXIwdW1uMVdVSm93c21HNCJ9",
+            "publicKeyJwk": {
+              "kid": "urn:ietf:params:oauth:jwk-thumbprint:sha-256:NEl3MGEFcIAv9IkQsnjT-zloM8zDquKdDkDVOma6cpk",
+              "kty": "EC",
+              "crv": "P-256",
+              "alg": "ECDH-ES+A256KW",
+              "x": "4qOdGcdT_GguAAqGqN7UUl1ehEp_6mEYiqkfkwKNqGI",
+              "y": "36laPTmRx_1xAAN94Ua3K-H6N-XMr0umn1WUJowsmG4"
+            }
+          }
+        ],
+        "keyAgreement": [
+          "#0"
+        ]
+      }
+    }
+  ],
+  "RSA-OAEP-256": [
+    {
+      "privateKeyJwk": {
+        "kid": "urn:ietf:params:oauth:jwk-thumbprint:sha-256:HCJZH3VHwb2udjG4fj92k3LevoWHEfhEt5IuM6rxWXI",
+        "kty": "RSA",
+        "alg": "RSA-OAEP-256",
+        "d": "G3rzWV-UF5dF_1bQGeYuuDeJSa4SnAB1OLUxlFdtOiDU73GrBL5cyxja7OGfISZlJrUFuDo7LIHzC2bK1-k0rl-23pruChz2UEsYc975Fo9mG-K_3UEgPIPY15nzxJobTiBBk6Im_SufKqY5cvxl1FwI63-DV5VR4Nypi71FC-b-13Itnpm_NQ46JAg7_ua7nAcBCvLJJYS4iQoHM-wU8l7dbsBm8XFgvugAwBUAOCiWilkgpfA-V9ptienKS-Ip0e8h9_CtF2_iLWlAWqY7H_f-cx_mh3zKDJWpbX3a8QqeBlX0EA9gHs3sNnmj_DHd9FJ8ulNZRfN1OZVK62FaLQ",
+        "n": "4D0pZjwxokz2umVf-xmx0xjUk_DmlRxsWMB3pFxsGqYhw42mKK8ajNeZjAaxqUEc_jyLE42t0bjfrKzEfy5I4jGrEI1qcjz9UJNpVATPzovaz8DhaqLETbZx7wlFdMzSkgDJkh63CJwRedIiv_mmrg_yNx_y92YoEnDRHAcZ505RA0_EahGV6cxN-f7MWJOqqJ5hMNUdCept_90HOtTLvjFSQwfxRC9wsENnAx9qLxJcSDzyzvSj3IYm0MYZ7_qxQQ-3OINewY3ThAD4b_z3f1UnuOQdHpyfjEVo5AAhB1-kEAUBUJ91h9qqeKWxNeiYbyxpInRCQ6x5mHDm4K52Bw",
+        "e": "AQAB",
+        "p": "5ULdvUbTwui_TKlFBy_FUKl0cTsSn52U3nXVpNfbwINd6PCl8l2ymNkW7xfFRQrDhYhmklyUAgYi61zsN5JnOF-opBQD0AA1HPzsIKTg_QH5ol36WcWf_CFecCgtLNYalTZE8zHVZGlr0G4OBYVnEWEjNauCebRGLBPOTDNhSfs",
+        "q": "-mRX66s9AGpl6awQ5fAgPJ24SV6Vn6F5JZiT2PYYrvh4GOYUGqr_57Bj9PnpKAV5vE--0lUOb1A0C6VXep_cQEjB1ysbjOcmheC2-uPv0tTZZVlvjSYKkPtyQ0Rt2aDcSNDboTyP4-Ib8hP33oCu2Sxl9EeHWfI0A-L_weCH8mU",
+        "dp": "WLCSaWuh9i_l-XkuLAaN9ZNoaXlpzfe_JIQ_PwMGjyYCyV93Qxh-Q-UPmzT96qSsWNcYnxxTYakQDy8mbqUja0qOSdM4WloKMgmiK0q9gwMlmGt0sw_hwT8Dcq4IM-Ur6XdSGya3H54syDgbEoW2BqImZdfQpNZZoymSUCY8R8s",
+        "dq": "1Y6vzjkGlkwpD9vJrdPYKtr6Stl5E-VMxlwT_YAoHVOeWt4hV31xNdKj7lUYHyJMaeg6AHq7DQWC3kvvCI8_8zQa38HMhajAmn7GkcXGzjLsGBznn6NKb82F7wl2B5_DQfeg2ywkLWC0JQwS5Jsshd3wNyCquHRzGL2LFXjDemE",
+        "qi": "mwgZ8_mAUEakH-hm2jW5ZEza7dvuYtcfjbzx_jQNLclfYnJH_4KU5MAHiH43k4vd0QwyNss87a4LiEcfecpHh_qhSnqrl8UDSRZ5zNp_Q0W15dElcmLpZ30yDePVeilbNrMCCcVXohAPaslHXw_xdKT1d6mzTPrr03bZ8dqWQlY"
+      },
+      "didDocument": {
+        "@context": [
+          "https://www.w3.org/ns/did/v1",
+          {
+            "@vocab": "https://www.iana.org/assignments/jose#"
+          }
+        ],
+        "id": "did:jwk:eyJraWQiOiJ1cm46aWV0ZjpwYXJhbXM6b2F1dGg6andrLXRodW1icHJpbnQ6c2hhLTI1NjpIQ0paSDNWSHdiMnVkakc0Zmo5MmszTGV2b1dIRWZoRXQ1SXVNNnJ4V1hJIiwia3R5IjoiUlNBIiwiYWxnIjoiUlNBLU9BRVAtMjU2IiwibiI6IjREMHBaand4b2t6MnVtVmYteG14MHhqVWtfRG1sUnhzV01CM3BGeHNHcVlodzQybUtLOGFqTmVaakFheHFVRWNfanlMRTQydDBiamZyS3pFZnk1STRqR3JFSTFxY2p6OVVKTnBWQVRQem92YXo4RGhhcUxFVGJaeDd3bEZkTXpTa2dESmtoNjNDSndSZWRJaXZfbW1yZ195TnhfeTkyWW9FbkRSSEFjWjUwNVJBMF9FYWhHVjZjeE4tZjdNV0pPcXFKNWhNTlVkQ2VwdF85MEhPdFRMdmpGU1F3ZnhSQzl3c0VObkF4OXFMeEpjU0R6eXp2U2ozSVltME1ZWjdfcXhRUS0zT0lOZXdZM1RoQUQ0Yl96M2YxVW51T1FkSHB5ZmpFVm81QUFoQjEta0VBVUJVSjkxaDlxcWVLV3hOZWlZYnl4cEluUkNRNng1bUhEbTRLNTJCdyIsImUiOiJBUUFCIn0",
+        "verificationMethod": [
+          {
+            "id": "#0",
+            "type": "JsonWebKey2020",
+            "controller": "did:jwk:eyJraWQiOiJ1cm46aWV0ZjpwYXJhbXM6b2F1dGg6andrLXRodW1icHJpbnQ6c2hhLTI1NjpIQ0paSDNWSHdiMnVkakc0Zmo5MmszTGV2b1dIRWZoRXQ1SXVNNnJ4V1hJIiwia3R5IjoiUlNBIiwiYWxnIjoiUlNBLU9BRVAtMjU2IiwibiI6IjREMHBaand4b2t6MnVtVmYteG14MHhqVWtfRG1sUnhzV01CM3BGeHNHcVlodzQybUtLOGFqTmVaakFheHFVRWNfanlMRTQydDBiamZyS3pFZnk1STRqR3JFSTFxY2p6OVVKTnBWQVRQem92YXo4RGhhcUxFVGJaeDd3bEZkTXpTa2dESmtoNjNDSndSZWRJaXZfbW1yZ195TnhfeTkyWW9FbkRSSEFjWjUwNVJBMF9FYWhHVjZjeE4tZjdNV0pPcXFKNWhNTlVkQ2VwdF85MEhPdFRMdmpGU1F3ZnhSQzl3c0VObkF4OXFMeEpjU0R6eXp2U2ozSVltME1ZWjdfcXhRUS0zT0lOZXdZM1RoQUQ0Yl96M2YxVW51T1FkSHB5ZmpFVm81QUFoQjEta0VBVUJVSjkxaDlxcWVLV3hOZWlZYnl4cEluUkNRNng1bUhEbTRLNTJCdyIsImUiOiJBUUFCIn0",
+            "publicKeyJwk": {
+              "kid": "urn:ietf:params:oauth:jwk-thumbprint:sha-256:HCJZH3VHwb2udjG4fj92k3LevoWHEfhEt5IuM6rxWXI",
+              "kty": "RSA",
+              "alg": "RSA-OAEP-256",
+              "n": "4D0pZjwxokz2umVf-xmx0xjUk_DmlRxsWMB3pFxsGqYhw42mKK8ajNeZjAaxqUEc_jyLE42t0bjfrKzEfy5I4jGrEI1qcjz9UJNpVATPzovaz8DhaqLETbZx7wlFdMzSkgDJkh63CJwRedIiv_mmrg_yNx_y92YoEnDRHAcZ505RA0_EahGV6cxN-f7MWJOqqJ5hMNUdCept_90HOtTLvjFSQwfxRC9wsENnAx9qLxJcSDzyzvSj3IYm0MYZ7_qxQQ-3OINewY3ThAD4b_z3f1UnuOQdHpyfjEVo5AAhB1-kEAUBUJ91h9qqeKWxNeiYbyxpInRCQ6x5mHDm4K52Bw",
+              "e": "AQAB"
+            }
+          }
+        ],
+        "keyAgreement": [
+          "#0"
+        ]
+      }
+    },
+    {
+      "privateKeyJwk": {
+        "kid": "urn:ietf:params:oauth:jwk-thumbprint:sha-256:3c-1vg_dQJDadLNqyA7in9duKoTESdkC2DgeBdwSQj4",
+        "kty": "RSA",
+        "alg": "RSA-OAEP-256",
+        "d": "AwHplXxLBabpxR_XxU4GDarjh_d8edz5GpjL29xZAGeErzgzP_fWmnLTq6EQ4SER4rCFWgZF76_sbJfPfjHGQOxCZk7L9Olr0F7652n_0raW-MDN_we--25Jre9qFuzj5P2QohtQK_TMiw9o4gz8vWfO39ym1RZQFVQUmsarTROR8sOrZFfOvyU6O5UpbJjLVQvQCyrz5DnDMzfS4SeAHzg1ibHPRXLw5H38aaLdRvOq8RSLbfLFZgkPwx9FJ5b1y_Puc16bmGtJn1uoRrKB01VxB069xpHLIxXl5sIJtCiasrvZSND_yuD9wg1NYB55ByhsWjWuR7hXfEbQUkt5wQ",
+        "n": "rWo9BB7SUijAD2EI1hQW1FjwJQSMU3BKrn-MhtAgALe85UPFQE5cX79PER1p_7nN-xlKxRwqHDxQObahO53SnyuGRlsEftFyF32maDmjjP9FqBHjK4tBVvId0ajzodi7Ec2mZQGoezKfLERiTopviwAejs5JB8ja_8r6sYKsXHl8rmc2Y7RxuINFgPI2XBjAi02tu2yy6roiD38nTi0FCvqtpAOyxs5wOkfqaVANf7RGhBefFlNKWvuIH97eFt_cUYTwuUvqC_Lz3_f1DyhL8dpDkVKEx_Wo_pCQmgcR-Trz3tL11iP29_c53DQ_Pc2i7CoQm_aliBUTYjzRCgDR1Q",
+        "e": "AQAB",
+        "p": "vSkbBHa0XgV9ubVqCanRN5eXZqcb5QEUy42B61vwciUcAUIDsztqzoECKYDiKiA7Kf5qbX0CTl1ZNf-8wr8PT26rDGjEm4_as4f-hf7Efk36VYlptNBSmm5GyO0CWLhCAglYB7_SxF7dnEDYM7iEJgfki0-KCWnP0UAFn7My3RU",
+        "q": "6rDV6SJRT5EETBO-dH0TDVVIJ4NbqJ1ZkAXEE8PnCMwUrBEP1Cpu8rFJAN3H3vJ4l1BkdX2RLHXOg0LBjKZXCsZ-uvjhLw7mcinGgAu6O43HaPkAdlQLG23puDZGtTFcm0RXnr97H5fQ7WMcqEPyRPwevXvd2YlJZc6V4fAC0cE",
+        "dp": "oGVBjohlKrB3SkhFEMqZKA13iMi8Q3OmQW_NMVg1S2SiGYLzhkAksdP8lFq_676GzHX5ort0gCRxZ_NhCLVfcxhBG_WeeNYDOWZgcRh1XzAZy_wH0RUwZdiKVwd5jOc4uWdY6MFEI9TZDwyBB2I3U9Qve91HC_JYEHO8EQ2vXH0",
+        "dq": "dIYGPzFdw66RvqAS8M1k1zrfj1bF_IrbfAmQ1-ttW03Qeboi7MmAupjRUU_MO-KRgzdUGY2VtchsF3nelVHFZ8E0DOsjCvVP76DUQKER_x2ew3zWAOordZv17hNsuevfOewNwPD7Va1P-305LkZGFIBFVvkYJjjmq1iNzFcZX0E",
+        "qi": "V22tGjTv8AV4tLU75Oi-i9_VNlU-9PlZq_7b3K921XQW5gVTDNltHmI_xXpLTBxhelFQUSRl--4ZVenm1VVzNVqS1V_ltu2-eQlFjO0ZqcP9d5xUAGLvtIg_YYvGAyzW9mNNqKXPzXGSMQ-bxB2_lL-1sfEOr4eGN31LQKCrsNY"
+      },
+      "didDocument": {
+        "@context": [
+          "https://www.w3.org/ns/did/v1",
+          {
+            "@vocab": "https://www.iana.org/assignments/jose#"
+          }
+        ],
+        "id": "did:jwk:eyJraWQiOiJ1cm46aWV0ZjpwYXJhbXM6b2F1dGg6andrLXRodW1icHJpbnQ6c2hhLTI1NjozYy0xdmdfZFFKRGFkTE5xeUE3aW45ZHVLb1RFU2RrQzJEZ2VCZHdTUWo0Iiwia3R5IjoiUlNBIiwiYWxnIjoiUlNBLU9BRVAtMjU2IiwibiI6InJXbzlCQjdTVWlqQUQyRUkxaFFXMUZqd0pRU01VM0JLcm4tTWh0QWdBTGU4NVVQRlFFNWNYNzlQRVIxcF83bk4teGxLeFJ3cUhEeFFPYmFoTzUzU255dUdSbHNFZnRGeUYzMm1hRG1qalA5RnFCSGpLNHRCVnZJZDBhanpvZGk3RWMybVpRR29lektmTEVSaVRvcHZpd0FlanM1SkI4amFfOHI2c1lLc1hIbDhybWMyWTdSeHVJTkZnUEkyWEJqQWkwMnR1Mnl5NnJvaUQzOG5UaTBGQ3ZxdHBBT3l4czV3T2tmcWFWQU5mN1JHaEJlZkZsTktXdnVJSDk3ZUZ0X2NVWVR3dVV2cUNfTHozX2YxRHloTDhkcERrVktFeF9Xb19wQ1FtZ2NSLVRyejN0TDExaVAyOV9jNTNEUV9QYzJpN0NvUW1fYWxpQlVUWWp6UkNnRFIxUSIsImUiOiJBUUFCIn0",
+        "verificationMethod": [
+          {
+            "id": "#0",
+            "type": "JsonWebKey2020",
+            "controller": "did:jwk:eyJraWQiOiJ1cm46aWV0ZjpwYXJhbXM6b2F1dGg6andrLXRodW1icHJpbnQ6c2hhLTI1NjozYy0xdmdfZFFKRGFkTE5xeUE3aW45ZHVLb1RFU2RrQzJEZ2VCZHdTUWo0Iiwia3R5IjoiUlNBIiwiYWxnIjoiUlNBLU9BRVAtMjU2IiwibiI6InJXbzlCQjdTVWlqQUQyRUkxaFFXMUZqd0pRU01VM0JLcm4tTWh0QWdBTGU4NVVQRlFFNWNYNzlQRVIxcF83bk4teGxLeFJ3cUhEeFFPYmFoTzUzU255dUdSbHNFZnRGeUYzMm1hRG1qalA5RnFCSGpLNHRCVnZJZDBhanpvZGk3RWMybVpRR29lektmTEVSaVRvcHZpd0FlanM1SkI4amFfOHI2c1lLc1hIbDhybWMyWTdSeHVJTkZnUEkyWEJqQWkwMnR1Mnl5NnJvaUQzOG5UaTBGQ3ZxdHBBT3l4czV3T2tmcWFWQU5mN1JHaEJlZkZsTktXdnVJSDk3ZUZ0X2NVWVR3dVV2cUNfTHozX2YxRHloTDhkcERrVktFeF9Xb19wQ1FtZ2NSLVRyejN0TDExaVAyOV9jNTNEUV9QYzJpN0NvUW1fYWxpQlVUWWp6UkNnRFIxUSIsImUiOiJBUUFCIn0",
+            "publicKeyJwk": {
+              "kid": "urn:ietf:params:oauth:jwk-thumbprint:sha-256:3c-1vg_dQJDadLNqyA7in9duKoTESdkC2DgeBdwSQj4",
+              "kty": "RSA",
+              "alg": "RSA-OAEP-256",
+              "n": "rWo9BB7SUijAD2EI1hQW1FjwJQSMU3BKrn-MhtAgALe85UPFQE5cX79PER1p_7nN-xlKxRwqHDxQObahO53SnyuGRlsEftFyF32maDmjjP9FqBHjK4tBVvId0ajzodi7Ec2mZQGoezKfLERiTopviwAejs5JB8ja_8r6sYKsXHl8rmc2Y7RxuINFgPI2XBjAi02tu2yy6roiD38nTi0FCvqtpAOyxs5wOkfqaVANf7RGhBefFlNKWvuIH97eFt_cUYTwuUvqC_Lz3_f1DyhL8dpDkVKEx_Wo_pCQmgcR-Trz3tL11iP29_c53DQ_Pc2i7CoQm_aliBUTYjzRCgDR1Q",
+              "e": "AQAB"
+            }
+          }
+        ],
+        "keyAgreement": [
+          "#0"
+        ]
+      }
+    },
+    {
+      "privateKeyJwk": {
+        "kid": "urn:ietf:params:oauth:jwk-thumbprint:sha-256:NUZaFZ4udJOIkYFVcK5CehVpP5E9ffbOvK5AB1Nwmjw",
+        "kty": "RSA",
+        "alg": "RSA-OAEP-256",
+        "d": "CFPVj2cb51qNm2O1MFPEc0rKjF3TFbBjjIonmVhs202DSK-3XQlqw0_5Hv21amyzBPZRRh5f850rNclWk9kEHOJZ53p7FY2ciAv12VCTl_VWKn_XWs3qySUxkqYrKHuipjXnvc4aBFIn8fwQ0Q7VpQrEOm0PB3nypQs_44WxTZpm-RwFjEyWr8XFX99GLZQ7b_YunQiZAL_P29UCb--mEWBKJHsQH7agtihjq_mQz3ADwZ2r58VfbVM3VXWSzr_K55A5RDP-npfga5tii7W18rlkwKNle4GtKOxd9TE4LLBw3ONENyEFB4SDUk4GfZVkcdnohMXWPvIl2Z58JVwHdQ",
+        "n": "00nTUzggWwchymm1Rl0KtbEXzUr4t3-tPIbNgPGmLgYBNYTpLinN7EBEFbAocy086zhqr2OcsOwpIEPTt2lZfG2xfQPryPbKi8sQrXvgvAEA4C_Bn_1h7SrJksFxWMgdhPX8NIM0EwvSBvBSLJCSRgMZZCEMcRTskt6xSM3VUChVn64SFOudWDGYMM7aNKaK3BecZAV01ZhCSCnOtKpF5QCQNUkWZa5qPl9EwDdPp3fu4gj6EJ35zGdBef2xH8Cgl0aH-KEPfjyxgm3stTWZTMUbZGZWK8MnLCjuer98JPfTY1tUsxn_g5x2KeTPzU8AbBd0EUDkCAgqHiISA8hkVQ",
+        "e": "AQAB",
+        "p": "1pnoQD6S2u7WXBhTIZPJiVNtfUDvM-pnJCF-esjW40fS88Nh57kEjAJUjdWXsBO0ymFrbLHbOcDp_3bjijT5L-PCSDpsRqHPsxbG4Uc9vQdqSUoOKyphAZEAL_sb5KpW-FAEDw8OifgOostLwPnJQiZUrnwb2zdySLo5NxNTRf8",
+        "q": "_AxQggW1IYVb6fgb-fTEuPdoWuD1vfXp_veBk3SwALD280mk6s58CZERXysezV2RErMFEe9VgwX5edfM61H94r22UPIdHXE9OL-EvNOHs8qGLvclUBT9yC95VP2W9-vy3R_Q3ocU298_cik-GHqInVgPpOh15-6TnwKNAQNFXas",
+        "dp": "CG6NqJCM1ptRwtaV1Zjn70Re5e_6NhD8sne6b3qart1wlXFU1HT5j8K7rcL5rcpobRc80E2Arpk82HPEZvbD37TUOmBJRtEuxvubHtjcvSOgcna9bcbBfv1Cg6AbLXXf6uvB7RGLYbJkaNMSC-gEl1vIMf7gXVGlZOQkQVy6BeM",
+        "dq": "IyLUVkvVZEbi-UrNG5szkVVsBr81grW1WQXH2nZ50p7YzjGF-_Ws9Oh0M4AfWyGgB6tNGaLzmMBMdt_OgT981Q79S2t1A5W1oyOPrYMPd9DTw9hQK0nB1xZHI8H2Obl6sbittVe_YKdOgOue7GqogMa155dAWIS5r4D7hxidouE",
+        "qi": "JTPxRfw0IDhBl2YMRBRAH-kNZSG5jddzoxV6oo-3ZNivvotZB85eDjFJu6amYt_W2urpaQITq5eLCPrT_VkHdFmZX8sKabDGsZylUmPP88-Fe6J0N1O9TipQ6PtzhNxes4loglsiMl60-fGKhp3FrQFtdPcigz7RbUiUGyMF-S0"
+      },
+      "didDocument": {
+        "@context": [
+          "https://www.w3.org/ns/did/v1",
+          {
+            "@vocab": "https://www.iana.org/assignments/jose#"
+          }
+        ],
+        "id": "did:jwk:eyJraWQiOiJ1cm46aWV0ZjpwYXJhbXM6b2F1dGg6andrLXRodW1icHJpbnQ6c2hhLTI1NjpOVVphRlo0dWRKT0lrWUZWY0s1Q2VoVnBQNUU5ZmZiT3ZLNUFCMU53bWp3Iiwia3R5IjoiUlNBIiwiYWxnIjoiUlNBLU9BRVAtMjU2IiwibiI6IjAwblRVemdnV3djaHltbTFSbDBLdGJFWHpVcjR0My10UEliTmdQR21MZ1lCTllUcExpbk43RUJFRmJBb2N5MDg2emhxcjJPY3NPd3BJRVBUdDJsWmZHMnhmUVByeVBiS2k4c1FyWHZndkFFQTRDX0JuXzFoN1NySmtzRnhXTWdkaFBYOE5JTTBFd3ZTQnZCU0xKQ1NSZ01aWkNFTWNSVHNrdDZ4U00zVlVDaFZuNjRTRk91ZFdER1lNTTdhTkthSzNCZWNaQVYwMVpoQ1NDbk90S3BGNVFDUU5Va1daYTVxUGw5RXdEZFBwM2Z1NGdqNkVKMzV6R2RCZWYyeEg4Q2dsMGFILUtFUGZqeXhnbTNzdFRXWlRNVWJaR1pXSzhNbkxDanVlcjk4SlBmVFkxdFVzeG5fZzV4MktlVFB6VThBYkJkMEVVRGtDQWdxSGlJU0E4aGtWUSIsImUiOiJBUUFCIn0",
+        "verificationMethod": [
+          {
+            "id": "#0",
+            "type": "JsonWebKey2020",
+            "controller": "did:jwk:eyJraWQiOiJ1cm46aWV0ZjpwYXJhbXM6b2F1dGg6andrLXRodW1icHJpbnQ6c2hhLTI1NjpOVVphRlo0dWRKT0lrWUZWY0s1Q2VoVnBQNUU5ZmZiT3ZLNUFCMU53bWp3Iiwia3R5IjoiUlNBIiwiYWxnIjoiUlNBLU9BRVAtMjU2IiwibiI6IjAwblRVemdnV3djaHltbTFSbDBLdGJFWHpVcjR0My10UEliTmdQR21MZ1lCTllUcExpbk43RUJFRmJBb2N5MDg2emhxcjJPY3NPd3BJRVBUdDJsWmZHMnhmUVByeVBiS2k4c1FyWHZndkFFQTRDX0JuXzFoN1NySmtzRnhXTWdkaFBYOE5JTTBFd3ZTQnZCU0xKQ1NSZ01aWkNFTWNSVHNrdDZ4U00zVlVDaFZuNjRTRk91ZFdER1lNTTdhTkthSzNCZWNaQVYwMVpoQ1NDbk90S3BGNVFDUU5Va1daYTVxUGw5RXdEZFBwM2Z1NGdqNkVKMzV6R2RCZWYyeEg4Q2dsMGFILUtFUGZqeXhnbTNzdFRXWlRNVWJaR1pXSzhNbkxDanVlcjk4SlBmVFkxdFVzeG5fZzV4MktlVFB6VThBYkJkMEVVRGtDQWdxSGlJU0E4aGtWUSIsImUiOiJBUUFCIn0",
+            "publicKeyJwk": {
+              "kid": "urn:ietf:params:oauth:jwk-thumbprint:sha-256:NUZaFZ4udJOIkYFVcK5CehVpP5E9ffbOvK5AB1Nwmjw",
+              "kty": "RSA",
+              "alg": "RSA-OAEP-256",
+              "n": "00nTUzggWwchymm1Rl0KtbEXzUr4t3-tPIbNgPGmLgYBNYTpLinN7EBEFbAocy086zhqr2OcsOwpIEPTt2lZfG2xfQPryPbKi8sQrXvgvAEA4C_Bn_1h7SrJksFxWMgdhPX8NIM0EwvSBvBSLJCSRgMZZCEMcRTskt6xSM3VUChVn64SFOudWDGYMM7aNKaK3BecZAV01ZhCSCnOtKpF5QCQNUkWZa5qPl9EwDdPp3fu4gj6EJ35zGdBef2xH8Cgl0aH-KEPfjyxgm3stTWZTMUbZGZWK8MnLCjuer98JPfTY1tUsxn_g5x2KeTPzU8AbBd0EUDkCAgqHiISA8hkVQ",
+              "e": "AQAB"
+            }
+          }
+        ],
+        "keyAgreement": [
+          "#0"
+        ]
+      }
+    }
+  ]
+}

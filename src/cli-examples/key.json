@@ -1,0 +1,8 @@
+{
+  "kid": "urn:ietf:params:oauth:jwk-thumbprint:sha-256:FfMbzOjMmQ4efT6kvwTIJjelTqjl0xjEIWQ2qobsRMM",
+  "kty": "OKP",
+  "crv": "Ed25519",
+  "alg": "EdDSA",
+  "x": "ANRjH_zxcKBxsjRPUtzRbp7FSVLKJXQ9APX9MP1j7k4",
+  "d": "4tahvYj7jH6xn1fSG-WC7gGQCJhP5Xtpz9ggns5li6Y"
+}
