@@ -245,6 +245,16 @@ const encryptToDid = async (plaintext, did) => {
   return encryptToKey(plaintext, publicKeyJwk);
 };
 
+const calculateJwkThumbprintUri = async (publicKeyJwk) => {
+  const kid = await jose.calculateJwkThumbprintUri(publicKeyJwk);
+  return kid;
+};
+
+const calculateJwkThumbprint = async (publicKeyJwk) => {
+  const kid = await calculateJwkThumbprintUri(publicKeyJwk);
+  return kid.split(':').pop();
+};
+
 class DIDMethodClient {
   constructor(config) {
     if (!config.documentLoader) {
@@ -285,6 +295,8 @@ const utils = {
   signAsDid,
   verifyFromDid,
   encryptToDid,
+  calculateJwkThumbprintUri,
+  calculateJwkThumbprint,
 };
 
 const method = {
