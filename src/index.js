@@ -227,11 +227,9 @@ const verifyWithKey = async (jws, publicKeyJwk) => {
   return {payload, protectedHeader};
 };
 
-const signAsDid = (payload, privateKeyJwk) => {
+const signAsDid = (payload, privateKeyJwk, header = {}) => {
   const did = toDid(privateKeyJwk);
-  const header = {iss: did, kid: '#0'};
-
-  return sign(payload, privateKeyJwk, header);
+  return sign(payload, privateKeyJwk, {iss: did, kid: '#0', ...header});
 };
 
 const verifyFromDid = async (jws) => {
