@@ -1,5 +1,7 @@
 # did-jwk
 
+- [method spec](https://github.com/quartzjer/did-jwk)
+
 ```bash
 npm i @or13/did-jwk --save
 
